@@ -1,0 +1,6 @@
+pip install pyinstaller 安装第三方软件
+PySide2
+
+C:\Users\Happy\AppData\Local\Programs\Python\Python39\Scripts\pyside2-uic.exe -o D:\python3\codes\myTreeView.py D:\python3\form\myTreeView.ui  ui转PY
+
+pyinstaller.exe --onefile --windowed D:\python3\codes\XML读取.py py打包成exe文件
